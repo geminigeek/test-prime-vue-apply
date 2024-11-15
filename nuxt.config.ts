@@ -17,8 +17,10 @@ export default defineNuxtConfig({
   },
 
   css: [
-    join(currentDir, "./assets/css/tailwind.css"),
-    join(currentDir, "./assets/css/base.css"),
+    // join(currentDir, "./assets/css/tailwind.css"),
+    // join(currentDir, "./assets/css/base.css"),
+    "@/assets/css/tailwind.css",
+    "@/assets/css/base.css",
     // join(currentDir, "./assets/css/primevue.css"),
   ],
   postcss: {
